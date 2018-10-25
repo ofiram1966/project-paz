@@ -84,8 +84,12 @@ a {
 .dropdown:hover > .dropdowncontent{
     display:block;
 }
-.dropdown:hover > .dropdowncontent>a{
+.dropdown:hover > .dropdowncontent{
+    background-color: gray;
+}
+.dropdown:hover > .dropdowncontent a:hover{
     display: block;
+    background-color: red;
 
 }
 
