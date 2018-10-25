@@ -9,10 +9,40 @@ body{
 	
 }
 
-.header{
+#header{
     width: 100%;
     height: 105px;
     position: relative;
-   
+    z-index: 100;
     background:linear-gradient(to bottom, rgb(144,144,144) 80%, rgb(160, 160, 160) 87%, rgb(168, 168, 168)90%, rgb(170, 170, 170) );
 }
+#logo{
+
+    display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+    margin-right: 100px
+    /* background: url(images/paz_logo.png) */
+}
+.sep{
+position: relative;
+width: 4px;
+height: 21px;
+background: url(images/menu_sep.png) no-repeat 0 0px;
+margin:0 16px;
+}
+.dropdown{
+    float: right;
+    position: relative;
+   
+}
+.dropdowncotent{
+    display: block;
+
+}
+   
+
+
