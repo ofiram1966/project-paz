@@ -13,36 +13,94 @@ body{
     width: 100%;
     height: 105px;
     position: relative;
-    z-index: 100;
-    background:linear-gradient(to bottom, rgb(144,144,144) 80%, rgb(160, 160, 160) 87%, rgb(168, 168, 168)90%, rgb(170, 170, 170) );
-}
-#logo{
+   
+    background:linear-gradient(to bottom,rgb(144,144,144) 80%, rgb(160, 160, 160) 87%, rgb(168, 168, 168)90%, rgb(170, 170, 170) );
 
+}
+
+.logo{
     display: block;
     width: 142px;
     height: 93px;
-    position: absolute;
-    bottom: -20px;
-    right: -8px;
-    margin-right: 100px
-    /* background: url(images/paz_logo.png) */
-}
-.sep{
-position: relative;
-width: 4px;
-height: 21px;
-background: url(images/menu_sep.png) no-repeat 0 0px;
-margin:0 16px;
-}
-.dropdown{
-    float: right;
     position: relative;
-   
+    bottom: -35px;
+    margin-right: 143px;;
+    right: -8px;
 }
-.dropdowncotent{
+#bluehome{
+    margin-right: 8px;
+}
+    
+.container{
+    width: 900px;
+    margin:0 auto;
+}
+
+.container1{
+    display: inline-block;
+    position: absolute;
+padding: 20;
+top: 40px;
+left: 252px;
+color: blue;
+}
+.serch{
+    display: inline-block;
+    top: 8px;
+    left:3px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 38px;
+    margin: right 10px;
+
+}
+
+.sep{
+    color: #fff;
+     margin:15px;
+}
+.topnav li{
+     display: inline-block;
+    font-size: 15px;
+    font-family: 'Arial (Hebrew)';
+    margin-right: 143;
+    margin-top: 0; 
+} 
+ .dropdown{
+     position: relative;
+ }
+ .dropdowncontent{
+    position: absolute;
+     display: none;
+     background-color: black;
+     top:100%;
+}
+.dropdowncontent>a{
+
+     padding: 5px;
+}
+.dropdown:hover > .dropdowncontent{
+    display:block;
+}
+.dropdown:hover > .dropdowncontent>a{
     display: block;
 
 }
+
+
+ 
+
+ .topnav ul{
+     margin: 0;
+    
+
+ }
+#form{
+    margin-bottom: -25px;
+}
+
    
 
 
