@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    padding:0;
 }
 body{
     direction: rtl;
@@ -126,6 +127,38 @@ a:hover{
 #form{
     margin-bottom:-5px;
   
+}
+
+
+#fixedFooter{
+    width:100%;
+    height: 38px;
+        position: fixed;
+        z-index: 999999;
+        bottom: 0px;
+        background:gray;
+    }
+  
+    .footercontainer{
+        width:900px;
+        margin:0 auto;
+        
+       
+   }
+    .menu li{
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0; 
+       
+     color:white;
+   } 
+
+   .menu li #hesder{
+	color:red  !important;
+	
 }
 
    
