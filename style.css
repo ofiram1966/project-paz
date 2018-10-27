@@ -134,6 +134,71 @@ a:hover{
     /* margin-bottom:-5px; */
   
 }
+#imagecontainer{
+    width:900px;
+    margin:0 auto ;
+	z-index:-3;
+  
+}
+
+
+ .tab {
+    position: relative;
+    width: 291px;
+    height: 355px;
+    float: right;
+	margin-top: 30px;
+	margin-right:9px;
+	
+	
+}
+.tab img {
+	border-bottom-right-radius: 20px;
+   z-index: -1;
+   
+}
+.tabtext {
+	text-align: right;
+    width: 248px;
+    height:98px;
+	line-height: 0.9em;
+    overflow: hidden;
+    padding:5px 10px;
+    position: absolute;
+    left: 38px;
+    bottom: 6px;
+    color: white;
+   background-color: rgba(125, 123, 122,0.7);
+  
+   border-bottom-right-radius: 20px;
+   z-index: 0;
+}
+.tabtext h3{
+	font-size: 14px;
+    font-weight: bold;
+	margin:0;
+}
+.tabtext p{
+	font-size: 13px;
+    margin-top: 4px;
+	margin-bottom: 0px;
+}
+.tabtext a{
+	font-size: 13px;
+    float: left;
+    color: white;
+    padding-left: 12px;
+	
+	 background: url(images/read_more_white.png) no-repeat left center;
+    margin-bottom:2px;
+	
+	
+	
+}
+.tabtext a:hover {
+    color: #005CA0;
+	background: url(images/read_more_blue.png) no-repeat left center;
+}
 
 
 #fixedFooter{
