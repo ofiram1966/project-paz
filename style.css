@@ -65,6 +65,7 @@ a {
     margin: right 10px;
     
     
+    
 
 }
 a:hover{
@@ -81,9 +82,12 @@ a:hover{
     font-size: 15px;
   font-weight: bold;
     margin-right: auto;
+    margin-left: 10px;
     margin-top: 0; 
 } 
  .dropdown{
+     display: block;
+    
      position: relative;
 
  }
@@ -91,7 +95,9 @@ a:hover{
     position: absolute;
      display: none;
      background-color: black;
-     top:100%;
+     top:18px;
+  
+    margin: 10px;
 }
 .dropdowncontent>a{
 
@@ -125,7 +131,7 @@ a:hover{
 
  }
 #form{
-    margin-bottom:-5px;
+    /* margin-bottom:-5px; */
   
 }
 
