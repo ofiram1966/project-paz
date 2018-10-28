@@ -59,9 +59,9 @@ color:blue;
     /* left:7px; */
 }
 a {
-    text-decoration: none;
+    
     color: #fff;
-    padding-bottom: 38px;
+    
     margin: right 10px;
     
     
@@ -84,6 +84,7 @@ a:hover{
     margin-right: auto;
     margin-left: 10px;
     margin-top: 0; 
+	z-index:
 } 
  .dropdown{
      display: block;
@@ -96,8 +97,9 @@ a:hover{
      display: none;
      background-color: black;
      top:18px;
+  
     margin: 10px;
-    z-index: 5;
+	z-index:5;
 }
 .dropdowncontent>a{
 
@@ -220,15 +222,18 @@ a:hover{
     
 
 	h2{
+		display:inline-block;
+		margin-top:20px;
     color:#575757;
     font-size: 14px;
     text-align: right;
     padding-right:20px;
     }
 	.cubegeneral a{
+		display:inline-block;
     font-size: 13px;
     color: #72716d;
-    padding-left:12px;
+    padding:12px;
     background: url(images/read_more_yellow.png) no-repeat left center;
     margin-right:180px;
 	
